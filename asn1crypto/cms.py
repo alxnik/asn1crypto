@@ -824,7 +824,7 @@ class EnvelopedData(Sequence):
         ('version', CMSVersion),
         ('originator_info', OriginatorInfo, {'implicit': 0, 'optional': True}),
         ('recipient_infos', RecipientInfos),
-        ('encrypted_content_info', EncryptedContentInfo),
+        ('encrypted_content_info', EncryptedContentInfo, {'implicit': 0, 'optional': True}),
         ('unprotected_attrs', CMSAttributes, {'implicit': 1, 'optional': True}),
     ]
 
