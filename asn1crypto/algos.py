@@ -786,6 +786,8 @@ class EncryptionAlgorithmId(ObjectIdentifier):
         # PKCS#1 v2.2
         '1.2.840.113549.1.1.1': 'rsaes_pkcs1v15',
         '1.2.840.113549.1.1.7': 'rsaes_oaep',
+        # TR34
+        '1.2.840.10047.1.1': 'tripledes_ecb'
     }
 
 
