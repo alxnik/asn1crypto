@@ -117,6 +117,8 @@ class CMSAttributeType(ObjectIdentifier):
         # but that OID is also called szOID_TIMESTAMP_TOKEN. Because of there being
         # no canonical source for this OID, we give it our own name
         '1.3.6.1.4.1.311.3.3.1': 'microsoft_time_stamp_token',
+        # TR34
+        '1.2.840.113549.1.9.25.3': 'random_nonce'
     }
 
 
