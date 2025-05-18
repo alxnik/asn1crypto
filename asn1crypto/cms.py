@@ -974,7 +974,7 @@ class SetOfSMIMECapabilites(SetOf):
 ContentInfo._oid_specs = {
     'data': OctetString,
     'signed_data': SignedData,
-    'enveloped_data': EnvelopedData,
+    'enveloped_data': OctetString,
     'signed_and_enveloped_data': SignedAndEnvelopedData,
     'digested_data': DigestedData,
     'encrypted_data': EncryptedData,
